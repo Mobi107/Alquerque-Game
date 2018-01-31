@@ -1,0 +1,30 @@
+# This is where your second integration test should go!
+java -ea qirkat.Main
+set black -b--- -w--- --w-- ----w -----
+dump
+@<===
+@<  - - - - -
+@<  - - - - w
+@<  - - w - -
+@<  - w - - -
+@<  - b - - -
+@<===
+b1-b3-d3
+dump
+@<===
+@<  - - - - -
+@<  - - - - w
+@<  - - - b -
+@<  - - - - -
+@<  - - - - -
+@<===
+clear
+dump
+@<===
+@<  b b b b b
+@<  b b b b b
+@<  b b - w w
+@<  w w w w w
+@<  w w w w w
+@<===
+quit

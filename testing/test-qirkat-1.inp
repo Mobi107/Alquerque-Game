@@ -1,0 +1,33 @@
+# This is where your test case for the example given in lab should go.
+java -ea qirkat.Main
+set white w---b -w-b- --b-- -b-w- b---w
+dump
+@<===
+@<  b - - - w
+@<  - b - w -
+@<  - - b - -
+@<  - w - b -
+@<  w - - - b
+@<===
+b2-c2
+d2-b2
+a1-a2
+a5-b5
+dump
+@<===
+@<  - b - - w
+@<  - b - w -
+@<  - - b - -
+@<  w b - - -
+@<  - - - - b
+@<===
+a2-c2-c4-a4
+dump
+@<===
+@<  - b - - w
+@<  w - - w -
+@<  - - - - -
+@<  - - - - -
+@<  - - - - b
+@<===
+quit
